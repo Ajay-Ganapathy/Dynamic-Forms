@@ -1,0 +1,20 @@
+.main{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form{
+  background: wheat;
+  padding : 0px 60px;
+  border-radius : 5px;
+}
+
+button{
+  background: violet;
+  width : 100%;
+  color : white;
+  margin-bottom: 1rem;
+  border-radius : 5px;
+}

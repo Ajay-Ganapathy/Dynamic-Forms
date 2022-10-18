@@ -1,0 +1,25 @@
+.inputs{
+  display : flex;
+  flex-direction: column;
+  width : 300px;
+}
+
+input{
+  padding : 15px;
+  margin : 10px,3px;
+}
+
+span{
+  color : red;
+  padding : 3px;
+  display: none;
+}
+
+input:invalid[focussed = "true"]
+{
+  border : 1px red solid;
+}
+
+input:invalid[focussed = "true"] ~ span{
+  display : block;
+}
